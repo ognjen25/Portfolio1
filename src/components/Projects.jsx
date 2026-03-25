@@ -14,14 +14,15 @@ const Projects = () => {
                     My work
                 </h1>
                 <p className="text-left leading-7 text-lg lg:pr-20 text-gray-400">
-                    I have done remote work as a freelancer. I mostly build websites
-                    and smaller apps. I did the entire design of the websites, as well
-                    as the design and functionality of the applications, completely by
-                    myself, so far I have not had the opportunity to work with other
-                    colleagues. My primary job is{" "}
-                    <span className=" text-blue-600">front-end web developing</span>,
-                    but I also partially know back-end web developing, such as
-                    different types of contact forms or working with sql databases.
+                    I am a <span className=" text-blue-600">front-end web developing</span> who successfully completed the ITAcademy
+                    program, where I gained strong foundations in modern web development,
+                    responsive design, and building interactive user interfaces. During my
+                    professional experience at Izdavačko preduzeće Epoha-(unfortunetly the site is not out yet as there were inside limitations on technologies), 
+                    I worked on real-world web projects,
+                    improving both my technical skills and problem-solving approach in a
+                    production environment. I focus on creating clean, functional, and
+                    user-friendly web applications while continuously expanding my knowledge
+                    of both front-end and back-end technologies.
                 </p>
                 <button
                     className="mt-20 px-14 py-2 w-52 mx-auto border-cyan-800 border shadow-xl text-2xl active:scale-90 
@@ -62,7 +63,7 @@ const Projects = () => {
                     </div>
                 </a>
                 <a
-                    href="https://social-links-profile-chi-five-92.vercel.app/"
+                    href="https://blog-preview-card-kappa-five.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -76,7 +77,7 @@ const Projects = () => {
                     </div>
                 </a>
                 <a
-                    href="https://social-links-profile-chi-five-92.vercel.app/"
+                    href="https://bootstrap-responsive-theta.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -90,7 +91,7 @@ const Projects = () => {
                     </div>
                 </a>
                 <a
-                    href="https://social-links-profile-chi-five-92.vercel.app/"
+                    href="https://circle-color-animation.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

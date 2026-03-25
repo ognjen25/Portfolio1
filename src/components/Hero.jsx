@@ -11,8 +11,9 @@ const Hero = () => (
                 Front-End Web Developer
             </p>
             <p className=" font-quicksand text-lg py-5 leading-8 md:text-2xl max-w-xl mx-auto text-gray-400">
-                High school graduate turned self-taught web developer specializing
-                in front-end web development. Explore further below for details
+                High school graduate from Gimnazija "Sveti Sava" (IT specialization),
+                later refined through ITAcademy, specializing in front-end web development.
+                Explore further below for details
             </p>
         </div>
         <div className=" mb-14 flex justify-around text-7xl text-yellow-400">

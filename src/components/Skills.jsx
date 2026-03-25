@@ -11,7 +11,7 @@ const Skills = () => (
                 What am I do?
             </h1>
             <p className="text-left leading-7 text-lg lg:pr-20 text-gray-400">
-                Four years ago, I began my programming journey. Starting with{" "}
+                Five years ago, I began my programming journey. Starting with{" "}
                 <span className="text-green-500">HTML</span> and basic websites, I
                 have dedicated countless hours to learning and growing. Through
                 persistence and late nights at the computer, I have delved into{" "}
