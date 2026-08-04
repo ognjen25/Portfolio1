@@ -1,7 +1,7 @@
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaGitAlt } from "react-icons/fa";
 import { DiCss3, DiSass, DiMysql } from "react-icons/di";
-import { SiTailwindcss, SiJavascript, SiFigma, SiVite, SiTypescript  } from "react-icons/si";
+import { SiTailwindcss, SiJavascript, SiFigma, SiVite, SiTypescript } from "react-icons/si";
 
 
 const Skills = () => (
@@ -11,19 +11,16 @@ const Skills = () => (
                 What am I do?
             </h1>
             <p className="text-left leading-7 text-lg lg:pr-20 text-gray-400">
-                Five years ago, I began my programming journey. Starting with{" "}
-                <span className="text-green-500">HTML</span> and basic websites, I
-                have dedicated countless hours to learning and growing. Through
-                persistence and late nights at the computer, I have delved into{" "}
-                <span className="text-blue-600">ReactJS</span> and started
-                building sophisticated web applications. I am deeply passionate
-                about React and its frameworks, fascinated by the endless
-                possibilities they offer on the client side. While I am still in
-                the process of learning React, I am confident that with continued
-                effort and a conducive environment, I will rapidly progress and be
-                primed for larger projects. Like every aspiring programmer, my
-                dream is to one day become a{" "}
-                <span className="text-red-500">Full Stack Web Developer</span>.
+                My programming journey started with foundational languages like{" "}
+                <span className="text-purple-500">C#</span>, but my passion for interactive client-side
+                experiences naturally drew me into web development. Starting with{" "}
+                <span className="text-green-500">HTML</span> and core fundamentals, I
+                have dedicated countless hours to mastering clean architecture and logic. Through
+                persistence and daily coding, I have dived deep into{" "}
+                <span className="text-blue-600">TypeScript</span>, modern state management, and API integration.
+                I am deeply passionate about writing robust, typed code and building scalable client-side logic.
+                I learn fast, adapt quickly to new environments, and I am ready to bring my energy and dedication
+                to a real-world development team.
             </p>
         </div>
         <div className=" font-quicksand">

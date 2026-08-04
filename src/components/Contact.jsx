@@ -70,7 +70,6 @@ const Contact = () => {
                         const formData = new FormData(e.target);
                         let isEmpty = false;
 
-                        // Check if any form field is empty
                         for (let [key, value] of formData.entries()) {
                             if (!value.trim()) {
                                 isEmpty = true;
@@ -89,7 +88,7 @@ const Contact = () => {
                                 });
 
                                 if (response.ok) {
-                                    e.target.reset(); // Reset the form
+                                    e.target.reset();
                                 } else {
                                     alert("Form submission failed. Please try again later.");
                                 }
