@@ -1,5 +1,5 @@
 import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/ai";
-import laki from "../assets/laki.png";
+import ogi from "../assets/1718703777474.jpg";
 
 const Hero = () => (
     <section>
@@ -47,7 +47,7 @@ const Hero = () => (
             </a>
         </div>
         <div className="relative bg-linear-to-br from-cyan-400 w-60 h-60 mx-auto rounded-full overflow-hidden md:w-96 md:h-96 to-white">
-            <img src={laki} alt="developer" />
+            <img src={ogi} alt="developer" />
         </div>
     </section>
 );
