@@ -1,7 +1,7 @@
 import { AiFillHtml5 } from "react-icons/ai";
-import { FaReact, FaGitAlt } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import { DiCss3, DiSass, DiMysql } from "react-icons/di";
-import { SiTailwindcss, SiJavascript, SiFigma, SiVite  } from "react-icons/si";
+import { SiTailwindcss, SiJavascript, SiFigma, SiVite, SiTypescript  } from "react-icons/si";
 
 
 const Skills = () => (
@@ -68,8 +68,8 @@ const Skills = () => (
                         <p className=" font-quicksandbold text-center">VanilaJS</p>
                     </div>
                     <div>
-                        <FaReact className=" text-5xl mt-4 mb-2 mx-auto"></FaReact>
-                        <p className=" font-quicksandbold text-center">ReactJS</p>
+                        <SiTypescript className=" text-5xl mt-4 mb-2 mx-auto"></SiTypescript>
+                        <p className=" font-quicksandbold text-center">TypeScript</p>
                     </div>
                 </div>
             </div>
