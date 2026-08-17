@@ -48,6 +48,20 @@ const Projects = () => {
                     </div>
                 </a>
                 <a
+                    href="https://recipe-page-black-tau.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <div className=" mt-28 lg:mt-20" id="projects">
+                        <p className="text-center text-3xl font-quicksandlight text-white">
+                            Recipe page
+                        </p>
+                        <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
+                            <img src={recipePage} alt="recipe" />
+                        </div>
+                    </div>
+                </a>
+                <a
                     href="https://product-preview-card-component-three-liart.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -72,20 +86,6 @@ const Projects = () => {
                         </p>
                         <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
                             <img src={socialLinks} alt="social-links" />
-                        </div>
-                    </div>
-                </a>
-                <a
-                    href="https://recipe-page-black-tau.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <div className=" mt-28 lg:mt-20" id="projects">
-                        <p className="text-center text-3xl font-quicksandlight text-white">
-                            Recipe page
-                        </p>
-                        <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
-                            <img src={recipePage} alt="recipe" />
                         </div>
                     </div>
                 </a>
