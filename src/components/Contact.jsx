@@ -20,6 +20,18 @@ const Contact = () => {
             </p>
             <div className="mt-20 lg:flex justify-around items-center">
                 <div>
+                    <div className="flex items-center gap-4 my-10 lg:my-20">
+                        <a
+                            target="_blank"
+                            href="https://drive.google.com/file/d/1Gfntt18KNxE6FXwUfFqCo3LwYEoMgmDy/view?usp=sharing"
+                            rel="noopener noreferrer"
+                        >
+                            <AiOutlineCloudDownload className="text-5xl text-cyan-500 dark:text-yellow-400"></AiOutlineCloudDownload>
+                        </a>
+                        <p className=" text-xl text-gray-500 dark:text-gray-400">
+                            Resume
+                        </p>
+                    </div>
                     <div className="flex items-center gap-4">
                         <a href="tel:+38161-189-11-36">
                             <BsFillTelephoneFill className="text-5xl text-yellow-400"></BsFillTelephoneFill>
