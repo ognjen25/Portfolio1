@@ -1,10 +1,10 @@
 import React from 'react'
 import goToProjects from './Projects-func'
-import qr from '../assets/preview-qr_code.jpg'
-import BlogCard from '../assets/blog-preview.jpg'
+import inventory from '../assets/inventory.png'
+import productPreview from '../assets/product-preview.jpg'
+import recipePage from '../assets/preview-recipe_page.jpg'
 import socialLinks from '../assets/preview-social_links.jpg'
-import Screenshot1 from '../assets/Screenshot-1.png'
-import Screenshot2 from '../assets/Screenshot-2.png'
+import circleAnimation from '../assets/circle-animation.png'
 
 const Projects = () => {
     return (
@@ -17,7 +17,7 @@ const Projects = () => {
                     I am a <span className=" text-blue-600">front-end web developing</span> who successfully completed the ITAcademy
                     program, where I gained strong foundations in modern web development,
                     responsive design, and building interactive user interfaces. During my
-                    professional experience at Izdavačko preduzeće Epoha-(unfortunetly the site is not out yet as there were inside limitations on technologies), 
+                    professional experience at Izdavačko preduzeće Epoha-(unfortunetly the site is not out yet as there were inside limitations on technologies),
                     I worked on real-world web projects,
                     improving both my technical skills and problem-solving approach in a
                     production environment. I focus on creating clean, functional, and
@@ -34,20 +34,33 @@ const Projects = () => {
             </div>
             <div className="lg:grid grid-cols-3 gap-10">
                 <a
-                    href="https://qr-code-comp-lilac.vercel.app/"
+                    href="https://inventory-monitor-rho.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <div className=" mt-28 lg:mt-20" id="projects">
                         <p className="text-center text-3xl font-quicksandlight text-white">
-                            QR code component
+                            Inventory monitor
                         </p>
                         <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
-                            <img src={qr} alt="qr-link" />
+                            <img src={inventory} alt="inventory-monitor" />
                         </div>
                     </div>
                 </a>
-
+                <a
+                    href="https://product-preview-card-component-three-liart.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <div className=" mt-28 lg:mt-20" id="projects">
+                        <p className="text-center text-3xl font-quicksandlight text-white">
+                            Product preview
+                        </p>
+                        <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
+                            <img src={productPreview} alt="product-preview" />
+                        </div>
+                    </div>
+                </a>
                 <a
                     href="https://social-links-profile-chi-five-92.vercel.app/"
                     target="_blank"
@@ -58,35 +71,21 @@ const Projects = () => {
                             Social links list
                         </p>
                         <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
-                            <img src={socialLinks} alt="qr-link" />
+                            <img src={socialLinks} alt="social-links" />
                         </div>
                     </div>
                 </a>
                 <a
-                    href="https://blog-preview-card-kappa-five.vercel.app/"
+                    href="https://recipe-page-black-tau.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <div className=" mt-28 lg:mt-20" id="projects">
                         <p className="text-center text-3xl font-quicksandlight text-white">
-                            Blog preview card
+                            Recipe page
                         </p>
                         <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
-                            <img src={BlogCard} alt="qr-link" />
-                        </div>
-                    </div>
-                </a>
-                <a
-                    href="https://bootstrap-responsive-theta.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <div className=" mt-28 lg:mt-20" id="projects">
-                        <p className="text-center text-3xl font-quicksandlight text-white">
-                            Responsive page
-                        </p>
-                        <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
-                            <img src={Screenshot1} alt="qr-link" />
+                            <img src={recipePage} alt="recipe" />
                         </div>
                     </div>
                 </a>
@@ -100,7 +99,7 @@ const Projects = () => {
                             Circle animation
                         </p>
                         <div className=" mt-4 shadow-2xl bg-gray-500 bg-opacity-60 hover:bg-opacity-80 hover:scale-105">
-                            <img src={Screenshot2} alt="qr-link" />
+                            <img src={circleAnimation} alt="circle-animation" />
                         </div>
                     </div>
                 </a>
